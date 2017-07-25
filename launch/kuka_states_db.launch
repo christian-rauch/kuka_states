@@ -1,0 +1,5 @@
+<launch>
+  <include file="$(find kuka_lwr_sdh2_moveit)/launch/warehouse.launch">
+    <arg name="moveit_warehouse_database_path" value="$(find kuka_states)/states_db/" />
+  </include>
+</launch>
