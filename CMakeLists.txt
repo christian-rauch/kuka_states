@@ -8,7 +8,7 @@ project(kuka_states)
 ## if COMPONENTS list like find_package(catkin REQUIRED COMPONENTS xyz)
 ## is used, also find other catkin packages
 find_package(catkin REQUIRED COMPONENTS
-  kuka_lwr_sdh2_moveit
+  warehouse_ros_mongo
 )
 
 ## System dependencies are found with CMake's conventions
